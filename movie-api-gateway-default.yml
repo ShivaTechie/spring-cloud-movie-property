@@ -1,0 +1,9 @@
+server:
+  port: 8300
+ 
+
+zuul:
+  routes:
+      users:
+          url: http://localhost:8001/user-service-client/
+          path = /user/**
