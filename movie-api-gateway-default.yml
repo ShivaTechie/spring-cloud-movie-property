@@ -7,3 +7,6 @@ zuul:
       users:
           url: http://localhost:8001/user-service-client/
           path: /user/**
+      movie:
+          url: http://localhost:8001/movie-service-client/
+          path: /movie/**
