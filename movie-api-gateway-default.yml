@@ -8,5 +8,9 @@ zuul:
           url: http://localhost:8001/user-service-client/
           path: /user/**
       movie:
-          url: http://localhost:8001/movie-service-client/
+          url: http://localhost:8002/movie-service-client/
           path: /movie/**
+      user-movie:
+          url: http://localhost:8003/user-movie-service/
+          path: /user_movie/**
+      
